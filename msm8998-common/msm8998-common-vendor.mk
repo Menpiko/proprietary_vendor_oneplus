@@ -16,28 +16,40 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/bin/ifaadaemon:system/bin/ifaadaemon \
-    vendor/oneplus/msm8998-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a540_zap.b00:system/etc/firmware/a540_zap.b00 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a540_zap.b01:system/etc/firmware/a540_zap.b01 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a540_zap.b02:system/etc/firmware/a540_zap.b02 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a540_zap.elf:system/etc/firmware/a540_zap.elf \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/a540_zap.mdt:system/etc/firmware/a540_zap.mdt \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/ipa_fws.b00:system/etc/firmware/ipa_fws.b00 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/ipa_fws.b01:system/etc/firmware/ipa_fws.b01 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/ipa_fws.b02:system/etc/firmware/ipa_fws.b02 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/ipa_fws.b03:system/etc/firmware/ipa_fws.b03 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/ipa_fws.b04:system/etc/firmware/ipa_fws.b04 \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/ipa_fws.mdt:system/etc/firmware/ipa_fws.mdt \
     vendor/oneplus/msm8998-common/proprietary/etc/firmware/mbn_ota/mbn_ota.txt:system/etc/firmware/mbn_ota/mbn_ota.txt \
-    vendor/oneplus/msm8998-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/oneplus/msm8998-common/proprietary/lib/libteeclientjni.so:system/lib/libteeclientjni.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libteeclientjniv2.so:system/lib64/libteeclientjniv2.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_zap.b02:system/vendor/firmware/a530_zap.b02 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_zap.elf:system/vendor/firmware/a530_zap.elf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530_zap.mdt:system/vendor/firmware/a530_zap.mdt \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530v1_pfp.fw:system/vendor/firmware/a530v1_pfp.fw \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530v1_pm4.fw:system/vendor/firmware/a530v1_pm4.fw \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a540_gpmu.fw2:system/vendor/firmware/a540_gpmu.fw2 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a540_zap.b00:system/vendor/firmware/a540_zap.b00 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a540_zap.b01:system/vendor/firmware/a540_zap.b01 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a540_zap.b02:system/vendor/firmware/a540_zap.b02 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a540_zap.elf:system/vendor/firmware/a540_zap.elf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/a540_zap.mdt:system/vendor/firmware/a540_zap.mdt \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/ipa_fws.b00:system/vendor/firmware/ipa_fws.b00 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/ipa_fws.b01:system/vendor/firmware/ipa_fws.b01 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/ipa_fws.b02:system/vendor/firmware/ipa_fws.b02 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/ipa_fws.b03:system/vendor/firmware/ipa_fws.b03 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/ipa_fws.b04:system/vendor/firmware/ipa_fws.b04 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/ipa_fws.elf:system/vendor/firmware/ipa_fws.elf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/ipa_fws.mdt:system/vendor/firmware/ipa_fws.mdt \
     vendor/oneplus/msm8998-common/proprietary/vendor/firmware/libpn553_fw.so:system/vendor/firmware/libpn553_fw.so
 
 PRODUCT_PACKAGES += \
@@ -46,122 +58,116 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/msm8998-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/oneplus/msm8998-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/oneplus/msm8998-common/proprietary/bin/cnd:system/bin/cnd \
-    vendor/oneplus/msm8998-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/oneplus/msm8998-common/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/oneplus/msm8998-common/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/oneplus/msm8998-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/oneplus/msm8998-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/oneplus/msm8998-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/oneplus/msm8998-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/oneplus/msm8998-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/oneplus/msm8998-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/oneplus/msm8998-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/oneplus/msm8998-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/oneplus/msm8998-common/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/oneplus/msm8998-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/oneplus/msm8998-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/oneplus/msm8998-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/oneplus/msm8998-common/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/oneplus/msm8998-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/oneplus/msm8998-common/proprietary/bin/qvop-daemon:system/bin/qvop-daemon \
-    vendor/oneplus/msm8998-common/proprietary/bin/radish:system/bin/radish \
-    vendor/oneplus/msm8998-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oneplus/msm8998-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/oneplus/msm8998-common/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/oneplus/msm8998-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/oneplus/msm8998-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/oneplus/msm8998-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/oneplus/msm8998-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/oneplus/msm8998-common/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/oneplus/msm8998-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/oneplus/msm8998-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/oneplus/msm8998-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/oneplus/msm8998-common/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
-    vendor/oneplus/msm8998-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/oneplus/msm8998-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/oneplus/msm8998-common/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/oneplus/msm8998-common/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/oneplus/msm8998-common/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/oneplus/msm8998-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/oneplus/msm8998-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/oneplus/msm8998-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/oneplus/msm8998-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/oneplus/msm8998-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libsensor_test.so:system/lib64/libsensor_test.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/oneplus/msm8998-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/oneplus/msm8998-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/oneplus/msm8998-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
-    vendor/oneplus/msm8998-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/oneplus/msm8998-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/qvop-daemon:system/vendor/bin/qvop-daemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/oneplus/msm8998-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/oneplus/msm8998-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
-    vendor/oneplus/msm8998-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/oneplus/msm8998-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -181,10 +187,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -204,28 +210,20 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdpmqmihal.so:system/vendor/lib/libdpmqmihal.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmiracast.so:system/vendor/lib/libmiracast.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -242,18 +240,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsdm-disp-vndapis.so:system/vendor/lib/libsdm-disp-vndapis.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
@@ -261,30 +258,25 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libAudienceAZA.so:system/vendor/lib/rfsa/adsp/libAudienceAZA.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libCpDspFunctions_skel.so:system/vendor/lib/rfsa/adsp/libCpDspFunctions_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libdirac17801-capiv2.so:system/vendor/lib/rfsa/adsp/libdirac17801-capiv2.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libdirac_capiv2.so:system/vendor/lib/rfsa/adsp/libdirac_capiv2.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libedge_smooth_skel.so:system/vendor/lib/rfsa/adsp/libedge_smooth_skel.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libexternal_dog_skel.so:system/vendor/lib/rfsa/adsp/libexternal_dog_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libqvr_adsp_driver_skel.so:system/vendor/lib/rfsa/adsp/libqvr_adsp_driver_skel.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libhvxMathVIO.so:system/vendor/lib/rfsa/adsp/libhvxMathVIO.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so:system/vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveFaceRecognition_skel.so:system/vendor/lib/rfsa/adsp/libscveFaceRecognition_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libscveVideoSummary_skel.so:system/vendor/lib/rfsa/adsp/libscveVideoSummary_skel.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:system/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libvpp_frc.so:system/vendor/lib/rfsa/adsp/libvpp_frc.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
@@ -299,30 +291,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/hw/activity_recognition.msm8998.so:system/vendor/lib64/hw/activity_recognition.msm8998.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:system/vendor/lib64/hw/gatekeeper.msm8998.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/hw/keystore.msm8998.so:system/vendor/lib64/hw/keystore.msm8998.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/hw/vulkan.msm8998.so:system/vendor/lib64/hw/vulkan.msm8998.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imscmservice.so:system/vendor/lib64/lib-imscmservice.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsrcs-v2.so:system/vendor/lib64/lib-imsrcs-v2.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
@@ -332,13 +313,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxVpp.so:system/vendor/lib64/libOmxVpp.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
@@ -355,15 +335,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -376,34 +351,28 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmiracast.so:system/vendor/lib64/libmiracast.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libprotobuf-cpp-lgcy.so:system/vendor/lib64/libprotobuf-cpp-lgcy.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -420,7 +389,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -429,15 +397,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsdm-disp-vndapis.so:system/vendor/lib64/libsdm-disp-vndapis.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsensor_thresh.so:system/vendor/lib64/libsensor_thresh.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
@@ -448,13 +415,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
@@ -462,23 +427,25 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/oneplus/msm8998-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
+    libsdm-disp-apis \
     libbtnv \
     libgpustats \
-    libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
+    libloc_api_v02 \
     QtiTelephonyService \
-    TimeService \
     datastatusnotification \
     embms \
-    shutdownlistener \
-    QtiTetherService \
+    ims \
+    imssettings \
+    CNEService \
     com.qualcomm.location \
+    dpmserviceapp \
     qcrilmsgtunnel \
+    TimeService \
     colorservice \
     qcnvitems \
     qcrilhook
@@ -487,23 +454,24 @@ endif
 -include vendor/extra/devices.mk
 ifneq ($(call is-qc-perf-target),true)
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/msm8998-common/proprietary/bin/iop:system/bin/iop \
-    vendor/oneplus/msm8998-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perf-profile1.conf:system/vendor/etc/perf/perf-profile1.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perf-profile2.conf:system/vendor/etc/perf/perf-profile2.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perf-profile3.conf:system/vendor/etc/perf/perf-profile3.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perf-profile4.conf:system/vendor/etc/perf/perf-profile4.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/libqti-utils.so:system/vendor/lib/libqti-utils.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-iopd.so:system/vendor/lib64/libqti-iopd.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libqti-utils.so:system/vendor/lib64/libqti-utils.so
 endif

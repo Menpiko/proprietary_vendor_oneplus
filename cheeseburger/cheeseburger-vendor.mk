@@ -17,23 +17,10 @@
 PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oneplus/cheeseburger/proprietary/etc/GyroOffset_db.config:system/etc/GyroOffset_db.config \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:system/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
-    vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/oneplus/cheeseburger/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/oneplus/cheeseburger/proprietary/etc/camera/cp/CPCalibrationData.bin:system/etc/camera/cp/CPCalibrationData.bin \
-    vendor/oneplus/cheeseburger/proprietary/etc/camera/cp/FusionCalibrationParams.bin:system/etc/camera/cp/FusionCalibrationParams.bin \
     vendor/oneplus/cheeseburger/proprietary/etc/camera/cp/SystemParamsBokeh.bin:system/etc/camera/cp/SystemParamsBokeh.bin \
     vendor/oneplus/cheeseburger/proprietary/etc/camera/cp/SystemParamsFusion.bin:system/etc/camera/cp/SystemParamsFusion.bin \
-    vendor/oneplus/cheeseburger/proprietary/etc/camera/imx350_chromatix.xml:system/etc/camera/imx350_chromatix.xml \
-    vendor/oneplus/cheeseburger/proprietary/etc/camera/imx371_chromatix.xml:system/etc/camera/imx371_chromatix.xml \
-    vendor/oneplus/cheeseburger/proprietary/etc/camera/imx398_chromatix.xml:system/etc/camera/imx398_chromatix.xml \
+    vendor/oneplus/cheeseburger/proprietary/etc/camera/cp/systemParams.bin:system/etc/camera/cp/systemParams.bin \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -45,8 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
-    vendor/oneplus/cheeseburger/proprietary/etc/firmware/tp/fw_synaptics_15801.img:system/etc/firmware/tp/fw_synaptics_15801.img \
-    vendor/oneplus/cheeseburger/proprietary/etc/firmware/tp/fw_synaptics_15801b.img:system/etc/firmware/tp/fw_synaptics_15801b.img \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/tp/fw_synaptics_16859.img:system/etc/firmware/tp/fw_synaptics_16859.img \
     vendor/oneplus/cheeseburger/proprietary/etc/fsync_db.config:system/etc/fsync_db.config \
     vendor/oneplus/cheeseburger/proprietary/etc/oneplus5_vstab_db_1080p_video_0_30fps.config:system/etc/oneplus5_vstab_db_1080p_video_0_30fps.config \
@@ -55,42 +40,88 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/etc/oneplus5_vstab_db_4k_video_0_30fps.config:system/etc/oneplus5_vstab_db_4k_video_0_30fps.config \
     vendor/oneplus/cheeseburger/proprietary/etc/oneplus5_vstab_db_720p_video_0_30fps.config:system/etc/oneplus5_vstab_db_720p_video_0_30fps.config \
     vendor/oneplus/cheeseburger/proprietary/etc/oneplus5_vstab_db_720p_video_1_30fps.config:system/etc/oneplus5_vstab_db_720p_video_1_30fps.config \
-    vendor/oneplus/cheeseburger/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libVDBlurlessAPI.so:system/lib/libVDBlurlessAPI.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
     vendor/oneplus/cheeseburger/proprietary/lib/lib_oneplus_facebeauty.so:system/lib/lib_oneplus_facebeauty.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
     vendor/oneplus/cheeseburger/proprietary/lib/lib_oneplus_watermark.so:system/lib/lib_oneplus_watermark.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libblurbuster.so:system/lib/libblurbuster.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libfiltergenerator.so:system/lib/libfiltergenerator.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_chromaflash.so:system/lib/libjni_chromaflash.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_filtergenerator.so:system/lib/libjni_filtergenerator.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_hazebuster.so:system/lib/libjni_hazebuster.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_makeupV2.so:system/lib/libjni_makeupV2.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_optizoom.so:system/lib/libjni_optizoom.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_panorama.so:system/lib/libjni_panorama.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_seestraight.so:system/lib/libjni_seestraight.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_sharpshooter.so:system/lib/libjni_sharpshooter.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_stillmore.so:system/lib/libjni_stillmore.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_trackingfocus.so:system/lib/libjni_trackingfocus.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmms_gyro_vstab.so:system/lib/libmms_gyro_vstab.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmms_gyro_vstab_auth.so:system/lib/libmms_gyro_vstab_auth.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmms_hal_vstab.so:system/lib/libmms_hal_vstab.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmms_warper_vstab.so:system/lib/libmms_warper_vstab.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmorpho_image_stab4.so:system/lib/libmorpho_image_stab4.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libopcamera.so:system/lib/libopcamera.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libopcamera_crypt.so:system/lib/libopcamera_crypt.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libopcamera_native_modules.so:system/lib/libopcamera_native_modules.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libopcameralib.so:system/lib/libopcameralib.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libopposfr.so:system/lib/libopposfr.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libVDHexagonBlurless_skel.so:system/lib/rfsa/adsp/libVDHexagonBlurless_skel.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libdepthmap_skel.so:system/lib/rfsa/adsp/libdepthmap_skel.so \
     vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so \
     vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:system/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libthread_blur_skel.so:system/lib/rfsa/adsp/libthread_blur_skel.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
-    vendor/oneplus/cheeseburger/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libfiltergenerator.so:system/lib64/libfiltergenerator.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_makeupV2.so:system/lib64/libjni_makeupV2.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_optizoom.so:system/lib64/libjni_optizoom.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_pacprocessor.so:system/lib64/libjni_pacprocessor.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_panorama.so:system/lib64/libjni_panorama.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_seestraight.so:system/lib64/libjni_seestraight.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_sharpshooter.so:system/lib64/libjni_sharpshooter.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_stillmore.so:system/lib64/libjni_stillmore.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_trackingfocus.so:system/lib64/libjni_trackingfocus.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:system/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:system/vendor/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/camera/camera_config.xml:system/vendor/etc/camera/camera_config.xml \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/camera/imx350_chromatix.xml:system/vendor/etc/camera/imx350_chromatix.xml \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/camera/imx371_chromatix.xml:system/vendor/etc/camera/imx371_chromatix.xml \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/camera/imx376k_chromatix.xml:system/vendor/etc/camera/imx376k_chromatix.xml \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/camera/imx398_chromatix.xml:system/vendor/etc/camera/imx398_chromatix.xml \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/hw/camera.msm8998.so:system/vendor/lib/hw/camera.msm8998.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libSonyIMX350PdafLibrary.so:system/vendor/lib/libSonyIMX350PdafLibrary.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libSonyIMX371RmscLibrary.so:system/vendor/lib/libSonyIMX371RmscLibrary.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libStDualCam.so:system/vendor/lib/libStDualCam.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libStereoblur.so:system/vendor/lib/libStereoblur.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libactuator_lc898217xc_imx350.so:system/vendor/lib/libactuator_lc898217xc_imx350.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libactuator_lc898217xc_imx398.so:system/vendor/lib/libactuator_lc898217xc_imx398.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:system/vendor/lib/libarcsoft_dualcam_refocus.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libarcsoft_dualcam_bokeh_api.so:system/vendor/lib/libarcsoft_dualcam_bokeh_api.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libarcsoft_dualcam_refocus_left.so:system/vendor/lib/libarcsoft_dualcam_refocus_left.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libarcsoft_dualcam_refocus_preview.so:system/vendor/lib/libarcsoft_dualcam_refocus_preview.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libarcsoft_dualcam_refocus_right.so:system/vendor/lib/libarcsoft_dualcam_refocus_right.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libblurbuster.so:system/vendor/lib/libblurbuster.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libcamera_bokeh_wrapper.so:system/vendor/lib/libcamera_bokeh_wrapper.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libcdsprpc.so:system/vendor/lib/libcdsprpc.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libchromatix_imx350_3a_1536x866_30fps_video.so:system/vendor/lib/libchromatix_imx350_3a_1536x866_30fps_video.so \
@@ -172,20 +203,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libcvface_api.so:system/vendor/lib/libcvface_api.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdczoom.so:system/vendor/lib/libdczoom.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdualcameraddm.so:system/vendor/lib/libdualcameraddm.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libfiltergenerator.so:system/vendor/lib/libfiltergenerator.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libfusionLibrary.so:system/vendor/lib/libfusionLibrary.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_blurbuster.so:system/vendor/lib/libjni_blurbuster.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_chromaflash.so:system/vendor/lib/libjni_chromaflash.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_filtergenerator.so:system/vendor/lib/libjni_filtergenerator.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_makeupV2.so:system/vendor/lib/libjni_makeupV2.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_optizoom.so:system/vendor/lib/libjni_optizoom.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_panorama.so:system/vendor/lib/libjni_panorama.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_sharpshooter.so:system/vendor/lib/libjni_sharpshooter.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_stillmore.so:system/vendor/lib/libjni_stillmore.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_trackingfocus.so:system/vendor/lib/libjni_trackingfocus.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjni_ubifocus.so:system/vendor/lib/libjni_ubifocus.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -208,7 +227,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_edgesmooth_lib.so:system/vendor/lib/libmmcamera_edgesmooth_lib.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
@@ -220,12 +238,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imx350.so:system/vendor/lib/libmmcamera_imx350.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imx350_gt24c64ass_eeprom.so:system/vendor/lib/libmmcamera_imx350_gt24c64ass_eeprom.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imx371.so:system/vendor/lib/libmmcamera_imx371.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imx376k.so:system/vendor/lib/libmmcamera_imx376k.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imx376k_gt24c64_eeprom.so:system/vendor/lib/libmmcamera_imx376k_gt24c64_eeprom.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imx398.so:system/vendor/lib/libmmcamera_imx398.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_imx398_gt24c64_eeprom.so:system/vendor/lib/libmmcamera_imx398_gt24c64_eeprom.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_isp_abf48.so:system/vendor/lib/libmmcamera_isp_abf48.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
@@ -276,10 +296,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_sac_lib.so:system/vendor/lib/libmmcamera_sac_lib.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_sat_dummy_lib.so:system/vendor/lib/libmmcamera_sat_dummy_lib.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_sony_imx371_eeprom.so:system/vendor/lib/libmmcamera_sony_imx371_eeprom.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
@@ -289,31 +306,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libst_disp.so:system/vendor/lib/libst_disp.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libblurbuster.so:system/vendor/lib64/libblurbuster.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libcdsprpc.so:system/vendor/lib64/libcdsprpc.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libchromaflash.so:system/vendor/lib64/libchromaflash.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_blurbuster.so:system/vendor/lib64/libjni_blurbuster.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_chromaflash.so:system/vendor/lib64/libjni_chromaflash.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_clearsight.so:system/vendor/lib64/libjni_clearsight.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_makeupV2.so:system/vendor/lib64/libjni_makeupV2.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_optizoom.so:system/vendor/lib64/libjni_optizoom.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_panorama.so:system/vendor/lib64/libjni_panorama.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_sharpshooter.so:system/vendor/lib64/libjni_sharpshooter.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_stillmore.so:system/vendor/lib64/libjni_stillmore.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_trackingfocus.so:system/vendor/lib64/libjni_trackingfocus.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libjni_ubifocus.so:system/vendor/lib64/libjni_ubifocus.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/liboptizoom.so:system/vendor/lib64/liboptizoom.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so
